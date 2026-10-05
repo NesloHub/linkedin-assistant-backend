@@ -1,0 +1,5 @@
+# Never upload secrets or dependencies to GitHub / Render.
+# The host runs "npm install" itself, so node_modules must NOT be uploaded.
+.env
+node_modules/
+*.log
